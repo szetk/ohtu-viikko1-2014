@@ -76,6 +76,8 @@ public class VarastoTest {
         varasto.toString();
     }
 
+    // Tehdään muutos ja katotaan seuraako Jenkins Gittiä
+    
     @Test
     public void saldoEiYlity() {
         varasto.lisaaVarastoon(11);
